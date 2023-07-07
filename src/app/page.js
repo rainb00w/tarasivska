@@ -25,20 +25,14 @@ export default function Home() {
             <img src="/big-hall.jpeg" alt="big hall" />
           </div>
 
-          <iframe
-            src="https://calendar.google.com/calendar/embed?src=tarasovska.studio%40gmail.com&ctz=Europe%2FKiev"
-            style={{ border: '0' }}
-            width="100%"
-            height="600"
-            frameborder="0"
-            scrolling="no"
-          ></iframe>
-
           <h2 className="font-bold my-5 text-3xl mt-20">Малий зал 20м</h2>
 
+          <h2 className="font-bold my-5 text-3xl mt-20">Календар</h2>
+
+          <p>Зелений малий, синій великий</p>
           <iframe
-            src="https://calendar.google.com/calendar/embed?src=eb09ccf067b7a5e2c0cc56ea4ba3e4030ccc00818ed70ed9c9399e00a0aae324%40group.calendar.google.com&ctz=Europe%2FKiev"
-            style={{ border: '0' }}
+            src="https://calendar.google.com/calendar/embed?height=600&wkst=2&bgcolor=%23ffffff&ctz=Europe%2FKiev&showTitle=0&showPrint=0&showTabs=1&showCalendars=0&showTz=0&mode=WEEK&showDate=1&title=tarasiska_main&src=dGFyYXNvdnNrYS5zdHVkaW9AZ21haWwuY29t&src=ZWIwOWNjZjA2N2I3YTVlMmMwY2M1NmVhNGJhM2U0MDMwY2NjMDA4MThlZDcwZWQ5YzkzOTllMDBhMGFhZTMyNEBncm91cC5jYWxlbmRhci5nb29nbGUuY29t&color=%23c4681f&color=%23039BE5"
+            style={{ borderWidth: '0' }}
             width="100%"
             height="600"
             frameborder="0"
