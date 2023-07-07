@@ -20,13 +20,6 @@ export default function Home() {
 
       <main className="container mx-auto px-4 py-8">
         <div className="flex items-center justify-cente flex-col">
-          <h2 className="font-bold my-5 text-3xl">Великий зал 40м</h2>
-          <div className="w-[400px] ">
-            <img src="/big-hall.jpeg" alt="big hall" />
-          </div>
-
-          <h2 className="font-bold my-5 text-3xl mt-20">Малий зал 20м</h2>
-
           <h2 className="font-bold my-5 text-3xl mt-20">Календар</h2>
 
           <p>Зелений малий, синій великий</p>
@@ -38,6 +31,11 @@ export default function Home() {
             frameborder="0"
             scrolling="no"
           ></iframe>
+
+          {/* <h2 className="font-bold my-5 text-3xl">Великий зал 40м</h2>
+          <div className="w-[400px] ">
+            <img src="/big-hall.jpeg" alt="big hall" />
+          </div> */}
         </div>
       </main>
 
